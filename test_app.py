@@ -1,7 +1,7 @@
-# test_myfirstapp.py
+# test_app.py
 
 import pytest
-from myfirstapp import sqr, sqrt, pal
+from app import sqr, sqrt, pal
 
 def test_sqr():
     assert sqr(2) == 4
