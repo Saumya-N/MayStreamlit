@@ -22,7 +22,7 @@ def pal(num):
     else:
         return 'No, not a palindrome'
 
-number = st.slider("Pick a number", 0, 100)
+number = st.slider("Choose a number", 0, 100)
 
 col1, col2, col3 = st.columns(3)
 if st.button("Calculate"):
